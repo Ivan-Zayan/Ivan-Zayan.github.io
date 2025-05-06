@@ -11,7 +11,7 @@
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-        
+
         body {
             background-color: #1a1e35;
             color: white;
@@ -21,14 +21,14 @@
             min-height: 100vh;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 600px;
             width: 100%;
             text-align: center;
             margin-top: 40px;
         }
-        
+
         .profile-photo {
             width: 180px;
             height: 180px;
@@ -37,25 +37,25 @@
             border: 4px solid #ff5a76;
             margin-bottom: 20px;
         }
-        
+
         h1 {
             color: #ff5a76;
             font-size: 2.5rem;
             margin-bottom: 10px;
         }
-        
+
         .welcome-text {
             color: #ff5a76;
             font-size: 1.8rem;
             margin-bottom: 30px;
         }
-        
+
         .description {
             margin-bottom: 30px;
             line-height: 1.6;
             font-size: 1.1rem;
         }
-        
+
         .instructions {
             background-color: rgba(255, 90, 118, 0.15);
             border-left: 4px solid #ff5a76;
@@ -64,23 +64,23 @@
             margin-bottom: 30px;
             text-align: left;
         }
-        
+
         .instruction-title {
             font-weight: bold;
             margin-bottom: 10px;
             color: #ff5a76;
             font-size: 1.1rem;
         }
-        
+
         .instruction-list {
             padding-left: 20px;
             line-height: 1.5;
         }
-        
+
         .instruction-list li {
             margin-bottom: 8px;
         }
-        
+
         .social-links {
             display: flex;
             flex-direction: column;
@@ -88,7 +88,7 @@
             width: 100%;
             margin-bottom: 30px;
         }
-        
+
         .link-button {
             display: flex;
             align-items: center;
@@ -99,21 +99,21 @@
             color: white;
             transition: background-color 0.3s;
         }
-        
+
         .link-button:hover {
             background-color: #373f66;
         }
-        
+
         .link-icon {
             width: 32px;
             height: 32px;
             margin-right: 15px;
         }
-        
+
         .link-text {
             font-size: 1.2rem;
         }
-        
+
         .footer {
             margin-top: auto;
             padding: 20px 0;
@@ -127,11 +127,11 @@
         <img src="IMG_20241213_220313_549.jpg" alt="Vanchos" class="profile-photo">
         <h1>Vanchos_s</h1>
         <div class="welcome-text">приветствует вас</div>
-        
+
         <div class="description">
             Добро пожаловать на мою страницу! Здесь вы найдете ссылки на телегу и сможете поддержать меня донатом.
         </div>
-        
+
         <div class="instructions">
             <div class="instruction-title">Важная информация:</div>
             <ol class="instruction-list">
@@ -139,25 +139,20 @@
                 <li>После все ссылки будут работать корректно, и вы сможете подписаться на telegram канал и поддержать автора</li>
             </ol>
         </div>
-        
+
         <div class="social-links">
             <a href="https://t.me/vanch0s_s" class="link-button">
-                <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#2AABEE">
-                    <path d="M12 0C5.373 0 0 5.373 0 12s5.
-                        373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.248c-.14.635-2.182 9.275-2.182 9.275-.14.635-.515.866-1.030.54 0 0-2.832-2.135-3.865-3.124-.14-.139-.235-.409 0-.671.263-.263 2.182-2.111 3.375-3.25.328-.328.14-.54-.14-.54-.047 0-1.401.54-3.982 2.667-.375.262-.703.262-1.03 0-.328-.262-1.03-.606-1.731-.898-.656-.303-.891-.461-.891-.749 0-.262.375-.54.938-.671 2.62-.865 4.359-1.436 5.25-1.729 2.508-.933 3.026-1.095 3.375-1.095.093 0 .28.023.398.139.093.093.14.211.14.329-.047.177 0 .303-.047.635z"/>
-                </svg>
+                <img src="telegram.svg" alt="Telegram" class="link-icon">
                 <span class="link-text">Telegram</span>
             </a>
-            
+
             <a href="https://www.donationalerts.com/r/vanch0s_s" class="link-button">
-                <svg class="link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FF5A76">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1.41 16.09v-3.69h3.18L14.77 9h-3.36V6.27c0-1.09.43-2.08 1.96-2.08h1.53V1.43c-.9-.12-1.77-.21-2.69-.21-2.73 0-4.63 1.67-4.63 4.7v3.08H4.9v5.4h2.69v3.69c.99.15 1.54.22 2.12.22 1.33 0 2.46-.12 3.69-.31z"/>
-                </svg>
+                <img src="donate.svg" alt="Задонатить" class="link-icon">
                 <span class="link-text">Задонатить</span>
             </a>
         </div>
     </div>
-    
+
     <div class="footer">
         © 2025 Vanchos. Все права защищены.
     </div>
